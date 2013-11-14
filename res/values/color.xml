@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="theme_color">#51afd9</color>
+
+	<color name="main_text_color">#f6f6f6</color>
+	<color name="home_bg_color">#ffffff</color>
+	<color name="home_line_color">#246e98</color>
+
+	<color name="data_list_item_bg_color">#ffffff</color>
+
+	<color name="light_gray_bg">#f6f6f6</color>
+
+	<color name="default_circle_indicator_fill_color">#f6f6f6</color>
+	<color name="default_circle_indicator_page_color">#666666</color>
+	<color name="default_circle_indicator_stroke_color">#666666</color>
+
+	<color name="transparent">#9000</color>
+
+	<!-- Dialog line color -->
+	<color name="dialog_line_color">#d9d9d9</color>
+</resources>

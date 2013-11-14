@@ -1,0 +1,51 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+	<!-- layout_full -->
+	<style name="layout_full">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+
+	<!-- layout_wrap -->
+	<style name="layout_wrap">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<!-- layout horizontal -->
+	<style name="layout_horizontal" parent="layout_full">
+		<item name="android:layout_width">0px</item>
+	</style>
+
+	<!-- layout_vertical -->
+	<style name="layout_vertical" parent="layout_full">
+		<item name="android:layout_height">0px</item>
+	</style>
+
+	<style name="Theme.BackgroundTranslucent" parent="@android:Theme.Translucent">
+		<item name="android:windowBackground">@null</item>
+	</style>
+
+	<style name="Transparent">
+	　　<item name="android:windowBackground">@color/transparent</item>
+	　　<item name="android:windowIsTranslucent">true</item>
+	　　<item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+	</style>
+</resources>
